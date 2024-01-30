@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'pypub_helloworld = pyros_git.pypub_helloworld:main',
+            'pypub_helloworld = pub_pkg.pypub_helloworld:main',
         ],
     },
 )
