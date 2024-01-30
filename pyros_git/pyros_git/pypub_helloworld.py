@@ -18,7 +18,7 @@ class HelloworldPublisher(Node):
         msg.data = 'Hello World: {0}'.format(self.count)
         self.helloworld_publisher.publish(msg)
         self.get_logger().info('Published message: {0}'.format(msg.data))
-        self.count += 1
+        self.count += 3
 
 
 def main(args=None):
